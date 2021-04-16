@@ -21,7 +21,7 @@ client.connect(err => {
   //client.close();
 
 
-  const Orders = client.db("creativeAgency").collection("OrderInfo");
+  const Orders = client.db("cleaningAuthority").collection("OrderInfo");
   const Reviews = client.db("cleaningAuthority").collection("Reviews");
   const Admins = client.db("cleaningAuthority").collection("Admin");
   const Services = client.db("cleaningAuthority").collection("Services");
